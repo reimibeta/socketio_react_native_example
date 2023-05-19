@@ -6322,6 +6322,11 @@
   "resolved" "https://registry.npmjs.org/react-native-notifier/-/react-native-notifier-1.9.0.tgz"
   "version" "1.9.0"
 
+"react-native-preference@^2.2.3":
+  "integrity" "sha512-hQgBhKJtzzMn/XeW+bAqEgKaY9kjg+n6ykAcHnGQuQwUdaOiARo66k9kHLPbZNSHmXJYie3YmmFT7y6+R+mk6Q=="
+  "resolved" "https://registry.npmjs.org/react-native-preference/-/react-native-preference-2.2.3.tgz"
+  "version" "2.2.3"
+
 "react-native-push-notification@^8.1.1":
   "integrity" "sha512-XpBtG/w+a6WXTxu6l1dNYyTiHnbgnvjoc3KxPTxYkaIABRmvuJZkFxqruyGvfCw7ELAlZEAJO+dthdTabCe1XA=="
   "resolved" "https://registry.npmjs.org/react-native-push-notification/-/react-native-push-notification-8.1.1.tgz"

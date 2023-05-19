@@ -9,9 +9,10 @@
  */
 
 import React, {useState, type PropsWithChildren, useEffect, useRef} from 'react';
-import { SafeAreaView, useColorScheme } from 'react-native';
+import { SafeAreaView, View, useColorScheme } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import SocketTest from './src/socket_test';
+import PushNotificationTest from './src/push_notification_test';
 
 const App = () => {
 
@@ -23,7 +24,8 @@ const App = () => {
   
   return (
     <SafeAreaView style={backgroundStyle}>
-      <SocketTest />
+      {/* <SocketTest /> */}
+      <PushNotificationTest />
     </SafeAreaView>
   );
 };
