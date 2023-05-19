@@ -107,17 +107,17 @@ const PushNotificationTest = () => {
                     console.log('click')
                     // Notifications.schduleNotification(new Date(Date.now() + 1 * 1000));
                     // Notifications.notify()
-                    // PushNotification.localNotificationSchedule({
-                    //     channelId: 'reminders',
-                    //     title: '🔔 Reminder!',
-                    //     message: 'You have set this reminder',
-                    //     date: new Date(Date.now() + 1 * 1000)
-                    // });
-                    PushNotification.localNotification({
+                    PushNotification.localNotificationSchedule({
                         channelId: 'reminders',
                         title: '🔔 Reminder!',
                         message: 'You have set this reminder',
+                        date: new Date(Date.now() + 1 * 1000)
                     });
+                    // PushNotification.localNotification({
+                    //     channelId: 'reminders',
+                    //     title: '🔔 Reminder!',
+                    //     message: 'You have set this reminder',
+                    // });
                 }}
             />
         </View>
